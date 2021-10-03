@@ -1,0 +1,167 @@
+body {
+
+    margin: 0;
+    padding-top: 800px;
+    background-color: darkorange;
+
+
+}
+
+.profile {
+
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+}
+
+#welcome {
+
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+h1 {
+
+    font-size: 45px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+   
+
+}
+
+#id {
+    font-size: 30px;
+    font-family: cursive;
+    height: 1.2;
+
+
+}
+
+p {
+
+    margin: 25px auto;
+    font-size: 20px;
+    line-height: 1.2;
+    max-width: 450px;
+
+}
+
+
+#bio {
+
+    font-size: 20px;
+    padding: 50px;
+    text-align: center;
+
+}
+
+.line {
+    height: 5px;
+    background-color: aqua;
+    width: 70px;
+
+}
+
+h2 {
+
+    font-size: 45px;
+    line-height: 1.2;
+    font-family: inherit;
+    font-weight: 300;
+}
+
+
+#name {
+
+    font-size: 30px;
+    line-height: 1.2;
+    font-family: 'cinzel decorative', cursive;
+
+}
+
+
+.menu {
+    
+    position:fixed;
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    font-size:25px;
+}
+
+
+.links:hover {
+    background-color: aqua;
+    text-decoration:underline;
+    font-size: 30px;
+}
+
+.links {
+    color: coral;
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 23px;
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.article:hover {
+    background-color: cyan;
+    color: darkorange;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#My Work {
+    text-align: center;
+}
+
+#writtings {
+    text-align: center;
+}
+
+.contacts_1 a {
+    color: white;
+    text-shadow: none;
+}
+
+.contacts_1 h3 {
+    display: inline;
+
+}
+
+#contacts iframe {
+    width: 100%;
+}
